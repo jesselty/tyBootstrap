@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+
+<body ng-app="tyBootstrapApp">
+    <div style="margin-bottom: 50px;">
+        <strong style="font-style: italic;">Dont use inline styles. In examples, using them just for layout purpose. These styles can be added in the custom css classes to style components like the example layout.</strong>
+    </div>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <h3>Grid Layout</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <div style="border: 1px solid black;height: 200px;">
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div style="border: 1px solid black;height: 200px;">
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div style="border: 1px solid black;height: 200px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <pre style="background-color: rgb(230,230,230);">
+    
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-xs-4"&gt;
+                &lt;div style="border: 1px solid black;height: 200px;"&gt;
+                    
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-xs-4"&gt;
+                &lt;div style="border: 1px solid black;height: 200px;"&gt;
+                    
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-xs-4"&gt;
+                &lt;div style="border: 1px solid black;height: 200px;"&gt;
+                    
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </pre>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <h3>CheckBox</h3>
+    <div style="background-color: rgb(243,243,243);">
+        <label class="ty-checkbox">
+            <input type="checkbox" /><i class="icon-tick"></i></label>
+        <label class="ty-checkbox ty-checkbox-white">
+            <input type="checkbox" /><i class="icon-tick"></i></label>
+        <label class="ty-checkbox ty-checkbox-blue">
+            <input type="checkbox" /><i class="icon-tick"></i></label>
+    </div>
+    <pre style="background-color: rgb(230,230,230);">
+    
+        &lt;label class="ty-checkbox"&gt;
+            &lt;input type="checkbox" /&gt;&lt;i class="icon-tick"&gt;&lt;/i&gt;&lt;/label&gt;
+        &lt;label class="ty-checkbox ty-checkbox-white"&gt;
+            &lt;input type="checkbox" /&gt;&lt;i class="icon-tick"&gt;&lt;/i&gt;&lt;/label&gt;
+        &lt;label class="ty-checkbox ty-checkbox-blue"&gt;
+            &lt;input type="checkbox" /&gt;&lt;i class="icon-tick"&gt;&lt;/i&gt;&lt;/label&gt;
+    </pre>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <h3>Radio</h3>
+    <div style="background-color: rgb(243,243,243);">
+        <label class="ty-radio">
+            <input type="radio" name="radio1" /><i></i></label>
+        <label class="ty-radio ty-checkbox-white">
+            <input type="radio" name="radio1" /><i></i></label>
+        <label class="ty-radio ty-checkbox-blue">
+            <input type="radio" name="radio1" /><i></i></label>
+    </div>
+    <pre style="background-color: rgb(230,230,230);">
+    
+        &lt;label class="ty-radio"&gt;
+            &lt;input type="radio" name="radio1" /&gt;&lt;i&gt;&lt;/i&gt;&lt;/label&gt;
+        &lt;label class="ty-radio ty-checkbox-white"&gt;
+            &lt;input type="radio" name="radio1" /&gt;&lt;i&gt;&lt;/i&gt;&lt;/label&gt;
+        &lt;label class="ty-radio ty-checkbox-blue"&gt;
+            &lt;input type="radio" name="radio1" /&gt;&lt;i&gt;&lt;/i&gt;&lt;/label&gt;
+    </pre>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+label.ty-radio {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    input {
+        margin: 0;
+        visibility: hidden;
+    }
+    input:checked +i {
+        display: block;
+    }
+    &:before,
+    i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    &:before {
+        content: " ";
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    i {
+        width: 10px;
+        height: 10px;
+        display: none;
+        background: black;
+        border-radius: 50%;
+    }
+    &.ty-checkbox-white {
+        &:before {
+            border: 2px solid white;
+        }
+        i {
+            background: white;
+        }
+    }
+    &.ty-checkbox-blue {
+        &:before {
+            background-color: $ty-primary-color-1;
+            border: 0;
+        }
+        i {
+            background: white;
+        }
+    }
+}
