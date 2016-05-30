@@ -3,25 +3,25 @@
 //
 //Primary
 //
-$ty-primary-color-1: #0089CF;
-$ty-primary-color-2: #F15A22;
+$ty-primary-color-1: #0089CF !default;
+$ty-primary-color-2: #F15A22 !default;
 //
 //Secondary
 //
-$ty-secondary-color-1: #00AEEF;
-$ty-secondary-color-2: #231F20;
-$ty-secondary-color-3: #F99F1C;
-$ty-secondary-color-4: #94B0BE;
-$ty-secondary-color-5: #7A868E;
-$ty-secondary-color-6: #FFF1E2;
+$ty-secondary-color-1: #00AEEF !default;
+$ty-secondary-color-2: #231F20 !default;
+$ty-secondary-color-3: #F99F1C !default;
+$ty-secondary-color-4: #94B0BE !default;
+$ty-secondary-color-5: #7A868E !default;
+$ty-secondary-color-6: #FFF1E2 !default;
 //
 // Other
-$ty-other-color-1: #F4F7F8;
-$ty-other-color-2: #004E77;
-$ty-other-color-3: #2C6272;
-$ty-other-color-4: #2C6272;
+$ty-other-color-1: #F4F7F8 !default;
+$ty-other-color-2: #004E77 !default;
+$ty-other-color-3: #2C6272 !default;
+$ty-other-color-4: #2C6272 !default;
 
 
 /* Border Variables */
 
-$border-radius-1 : 3px;
+$border-radius-1 : 3px !default;
